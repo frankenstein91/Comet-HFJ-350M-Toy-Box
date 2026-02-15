@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+
+msgid "Basis + 3.5 Spule + 1.8 Spule"
+msgstr "Base + 3.5 Coil + 1.8 Coil"
+
+msgid "Kein Jumper"
+msgstr "No Jumper"
+
+msgid "> 20m (ideal 40m)"
+msgstr "> 20m (ideal 40m)"
+
+msgid "Extrem schmalbandig! Tuner fast immer nötig."
+msgstr "Extremely narrow band! Tuner almost always required."
+
+msgid "Basis + 3.5 Spule"
+msgstr "Base + 3.5 Coil"
+
+msgid "ca. 20m"
+msgstr "approx. 20m"
+
+msgid "Basis (Keine Zusatzspule)"
+msgstr "Base (No additional coil)"
+
+msgid "ca. 12m"
+msgstr "approx. 12m"
+
+msgid "Standard-Band für Portable."
+msgstr "Standard band for portable use."
+
+msgid "Basis"
+msgstr "Base"
+
+msgid "Terminal 1"
+msgstr "Terminal 1"
+
+msgid "ca. 7-8m"
+msgstr "approx. 7-8m"
+
+msgid "Terminal 2"
+msgstr "Terminal 2"
+
+msgid "ca. 5m"
+msgstr "approx. 5m"
+
+msgid "Terminal 3 (oder 2)"
+msgstr "Terminal 3 (or 2)"
+
+msgid "ca. 4m"
+msgstr "approx. 4m"
+
+msgid "Bei hohem SWR Terminal 2 testen."
+msgstr "Try Terminal 2 if SWR is high."
+
+msgid "Terminal 3"
+msgstr "Terminal 3"
+
+msgid "ca. 3.5m"
+msgstr "approx. 3.5m"
+
+msgid "ca. 3m"
+msgstr "approx. 3m"
+
+msgid "Terminal 4"
+msgstr "Terminal 4"
+
+msgid "ca. 2.5m"
+msgstr "approx. 2.5m"
+
+msgid "Teleskop NICHT voll ausziehen! Reserve ~26cm."
+msgstr "Do NOT extend telescope fully! Reserve ~26cm."
+
+msgid "Terminal 5"
+msgstr "Terminal 5"
+
+msgid "ca. 1.5m"
+msgstr "approx. 1.5m"
+
+msgid "Achtung: Terminal 5 = Common + 5"
+msgstr "Attention: Terminal 5 = Common + 5"
+
+msgid "Keine Konfiguration für diese Eingabe gefunden."
+msgstr "No configuration found for this input."
+
+msgid "=== Comet HFJ-350M (Toy Box) ==="
+msgstr "=== Comet HFJ-350M (Toy Box) ==="
+
+msgid "Band:"
+msgstr "Band:"
+
+msgid "Setup:"
+msgstr "Setup:"
+
+msgid "Spulen:"
+msgstr "Coils:"
+
+msgid "Jumper:"
+msgstr "Jumper:"
+
+msgid "Radial:"
+msgstr "Radial:"
+
+msgid "Strahler (Teleskop):"
+msgstr "Radiator (Telescope):"
+
+msgid "Standard"
+msgstr "Standard"
+
+msgid "Max überschritten!"
+msgstr "Max exceeded!"
+
+msgid "Zu kurz!"
+msgstr "Too short!"
+
+msgid "Kalkuliert"
+msgstr "Calculated"
+
+msgid "Diff zum Standard:"
+msgstr "Diff from standard:"
+
+msgid "Feinabstimmung (SWR):"
+msgstr "Fine tuning (SWR):"
+
+msgid "Empfindlichkeit:"
+msgstr "Sensitivity:"
+
+msgid "kHz pro cm"
+msgstr "kHz per cm"
+
+msgid "Freq zu tief? 1cm einschieben = +{khz} kHz"
+msgstr "Freq too low? push in 1cm = +{khz} kHz"
+
+msgid "Freq zu hoch? 1cm ausziehen  = -{khz} kHz"
+msgstr "Freq too high? pull out 1cm = -{khz} kHz"
+
+msgid "HINWEIS:"
+msgstr "NOTE:"
+
+msgid "HFJ-350M Antennen Rechner"
+msgstr "HFJ-350M Antenna Calculator"
+
+msgid "Band (z.B. 40m) oder Frequenz (z.B. 7.1)"
+msgstr "Band (e.g. 40m) or frequency (e.g. 7.1)"
+
+msgid "HFJ-350M Tool (DO3EET Edition)"
+msgstr "HFJ-350M Tool (DO3EET Edition)"
+
+msgid "Band/Freq > "
+msgstr "Band/Freq > "

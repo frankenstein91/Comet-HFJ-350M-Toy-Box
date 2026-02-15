@@ -1,0 +1,25 @@
+pkgname=python-toybox-calc
+_pkgname=toybox-calc
+pkgver=3.1.0
+pkgrel=1
+pkgdesc="Comet HFJ-350M Toy Box configuration calculator"
+arch=('any')
+license=('MIT')
+depends=('python')
+makedepends=('python-build' 'python-installer' 'python-setuptools' 'python-wheel')
+# We use no source array here because we use the current dir
+source=()
+sha256sums=()
+
+build() {
+    cd "$startdir"
+    python -m build --wheel --no-isolation
+}
+
+package() {
+    cd "$startdir"
+    python -m installer --destdir="$pkgdir" dist/*.whl
+    
+    install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+    install -Dm644 DISCLAIMER.md "$pkgdir/usr/share/doc/$pkgname/DISCLAIMER.md"
+}

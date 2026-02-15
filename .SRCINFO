@@ -1,0 +1,16 @@
+pkgbase = python-toybox-calc
+	pkgdesc = Comet HFJ-350M Toy Box configuration calculator
+	pkgver = 0.0.1_preclt2026
+	pkgrel = 1
+	url = https://github.com/frankenstein91/Comet-HFJ-350M-Toy-Box
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	source = toybox-calc-0.0.1_preclt2026.tar.gz::https://github.com/frankenstein91/Comet-HFJ-350M-Toy-Box/archive/refs/tags/v0.0.1_preclt2026.tar.gz
+	sha256sums = SKIP
+
+pkgname = python-toybox-calc

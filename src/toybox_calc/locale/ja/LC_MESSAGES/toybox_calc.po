@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+
+msgid "Basis + 3.5 Spule + 1.8 Spule"
+msgstr "ベース + 3.5コイル + 1.8コイル"
+
+msgid "Kein Jumper"
+msgstr "ジャンパー線なし"
+
+msgid "> 20m (ideal 40m)"
+msgstr "> 20m (推奨 40m)"
+
+msgid "Extrem schmalbandig! Tuner fast immer nötig."
+msgstr "非常に狭帯域です。ほとんどの場合、アンテナチューナーが必要です。"
+
+msgid "Basis + 3.5 Spule"
+msgstr "ベース + 3.5コイル"
+
+msgid "ca. 20m"
+msgstr "約 20m"
+
+msgid "Basis (Keine Zusatzspule)"
+msgstr "ベース (追加コイルなし)"
+
+msgid "ca. 12m"
+msgstr "約 12m"
+
+msgid "Standard-Band für Portable."
+msgstr "移動運用の標準バンド。"
+
+msgid "Basis"
+msgstr "ベース"
+
+msgid "Terminal 1"
+msgstr "端子 1"
+
+msgid "ca. 7-8m"
+msgstr "約 7-8m"
+
+msgid "Terminal 2"
+msgstr "端子 2"
+
+msgid "ca. 5m"
+msgstr "約 5m"
+
+msgid "Terminal 3 (oder 2)"
+msgstr "端子 3 (または 2)"
+
+msgid "ca. 4m"
+msgstr "約 4m"
+
+msgid "Bei hohem SWR Terminal 2 testen."
+msgstr "SWRが高い場合は端子2を試してください。"
+
+msgid "Terminal 3"
+msgstr "端子 3"
+
+msgid "ca. 3.5m"
+msgstr "約 3.5m"
+
+msgid "ca. 3m"
+msgstr "約 3m"
+
+msgid "Terminal 4"
+msgstr "端子 4"
+
+msgid "ca. 2.5m"
+msgstr "約 2.5m"
+
+msgid "Teleskop NICHT voll ausziehen! Reserve ~26cm."
+msgstr "ロッドを最後まで伸ばさないでください！ 予備 約26cm。"
+
+msgid "Terminal 5"
+msgstr "端子 5"
+
+msgid "ca. 1.5m"
+msgstr "約 1.5m"
+
+msgid "Achtung: Terminal 5 = Common + 5"
+msgstr "注意: 端子 5 = 共通 + 5"
+
+msgid "Keine Konfiguration für diese Eingabe gefunden."
+msgstr "入力された内容의 구성이 발견되지 않았습니다."
+
+msgid "=== Comet HFJ-350M (Toy Box) ==="
+msgstr "=== Comet HFJ-350M (Toy Box) ==="
+
+msgid "Band:"
+msgstr "バンド:"
+
+msgid "Setup:"
+msgstr "セットアップ:"
+
+msgid "Spulen:"
+msgstr "コイル:"
+
+msgid "Jumper:"
+msgstr "ジャンパー:"
+
+msgid "Radial:"
+msgstr "ラジアル:"
+
+msgid "Strahler (Teleskop):"
+msgstr "エレメント (ロッドアンテナ):"
+
+msgid "Standard"
+msgstr "標準"
+
+msgid "Max überschritten!"
+msgstr "最大値を超えました！"
+
+msgid "Zu kurz!"
+msgstr "短すぎます！"
+
+msgid "Kalkuliert"
+msgstr "計算値"
+
+msgid "Diff zum Standard:"
+msgstr "標準との差:"
+
+msgid "Feinabstimmung (SWR):"
+msgstr "微調整 (SWR):"
+
+msgid "Empfindlichkeit:"
+msgstr "感度:"
+
+msgid "kHz pro cm"
+msgstr "cmあたりのkHz"
+
+msgid "Freq zu tief? 1cm einschieben = +{khz} kHz"
+msgstr "周波数が低すぎる？ 1cm縮める = +{khz} kHz"
+
+msgid "Freq zu hoch? 1cm ausziehen  = -{khz} kHz"
+msgstr "周波数が高すぎる？ 1cm伸ばす = -{khz} kHz"
+
+msgid "HINWEIS:"
+msgstr "注意:"
+
+msgid "HFJ-350M Antennen Rechner"
+msgstr "HFJ-350M アンテナ計算機"
+
+msgid "Band (z.B. 40m) oder Frequenz (z.B. 7.1)"
+msgstr "バンド (例: 40m) または 周波数 (例: 7.1)"
+
+msgid "HFJ-350M Tool (DO3EET Edition)"
+msgstr "HFJ-350M ツール (DO3EET 版)"
+
+msgid "Band/Freq > "
+msgstr "バンド/周波数 > "

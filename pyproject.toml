@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toybox-calc"
+version = "0.0.1-preclt2026"
+description = "Comet HFJ-350M Toy Box - Konfigurations-Rechner"
+authors = [
+    {name = "DO3EET"}
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = []
+
+[project.scripts]
+toybox-calc = "toybox_calc.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+toybox_calc = ["locale/**/*.mo", "locale/**/*.po"]
