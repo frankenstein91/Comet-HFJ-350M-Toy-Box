@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "toybox-calc"
-version = "0.0.1"
+version = "0.0.2"
 description = "Comet HFJ-350M Toy Box - Konfigurations-Rechner"
 authors = [
     {name = "DO3EET"}
@@ -14,7 +14,6 @@ readme = "README.md"
 requires-python = ">=3.6"
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Topic :: Communications :: Ham Radio",
 ]

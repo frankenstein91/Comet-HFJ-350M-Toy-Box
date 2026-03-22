@@ -13,6 +13,7 @@ import sys
 import argparse
 import gettext
 import os
+from importlib.metadata import version, PackageNotFoundError
 
 # --- Internationalisierung (i18n) Setup ---
 # Suche nach Übersetzungen im 'locale' Verzeichnis relativ zum Skript
@@ -23,6 +24,11 @@ try:
 except Exception:
     _ = lambda s: s
 # ------------------------------------------
+
+try:
+    __version__ = version("toybox-calc")
+except PackageNotFoundError:
+    __version__ = "0.0.2-dev"
 
 # ANSI Colors für Arch Linux Terminal Ästhetik
 class Colors:
@@ -249,6 +255,7 @@ def print_config(data, target_freq=None):
 def main():
     parser = argparse.ArgumentParser(description=_('HFJ-350M Antennen Rechner'))
     parser.add_argument('query', nargs='?', help=_('Band (z.B. 40m) oder Frequenz (z.B. 7.1)'))
+    parser.add_argument('-v', '--version', action='version', version=f'%(prog)s {__version__}')
     
     args = parser.parse_args()
 
