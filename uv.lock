@@ -4,5 +4,5 @@ requires-python = ">=3.6"
 
 [[package]]
 name = "toybox-calc"
-version = "0.0.1"
+version = "0.0.2"
 source = { editable = "." }

@@ -1,7 +1,7 @@
-# Maintainer: DO3EET <do3eet@example.com>
+# Maintainer: DO3EET <do3eet@t-online.de>
 pkgname=python-toybox-calc
 _pkgname=toybox-calc
-pkgver=0.0.1_preclt2026
+pkgver=0.0.2
 pkgrel=1
 pkgdesc="Comet HFJ-350M Toy Box configuration calculator"
 arch=('any')
@@ -10,7 +10,7 @@ license=('MIT')
 depends=('python')
 makedepends=('python-build' 'python-installer' 'python-setuptools' 'python-wheel')
 source=("${_pkgname}-${pkgver}.tar.gz::https://github.com/frankenstein91/Comet-HFJ-350M-Toy-Box/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('SKIP') # You will need to update this after creating a tag/release
+sha256sums=('2bb2fc103e0bd56ee5224d8aef1f8ae8d1be9fdbe5b761c9739a333cd5157a33')
 
 build() {
     cd "${_pkgname}-${pkgver}"
