@@ -4,16 +4,27 @@ A command-line tool to calculate configurations for the Comet HFJ-350M antenna (
 
 ## Installation
 
-You can install this tool directly from the source directory:
+### From PyPI (Recommended)
+The easiest way to install the tool is via [PyPI](https://pypi.org/project/toybox-calc/):
 
 ```bash
-pip install .
+pip install toybox-calc
 ```
 
-Or for development (so changes to the code are immediately reflected):
+### For Arch Linux Users (AUR)
+If you are running Arch Linux or its derivatives, you can install the package from the [AUR](https://aur.archlinux.org/packages/python-toybox-calc):
 
 ```bash
-pip install -e .
+pikaur -S python-toybox-calc
+```
+
+### From Source
+You can also install this tool directly from the repository:
+
+```bash
+git clone https://github.com/frankenstein91/Comet-HFJ-350M-Toy-Box.git
+cd Comet-HFJ-350M-Toy-Box
+pip install .
 ```
 
 ## Usage
@@ -30,7 +41,13 @@ toybox-calc
 You can pass a band or frequency as an argument:
 ```bash
 toybox-calc 40m
-toybox-calc 7.1
+toybox-calc 28.074
+```
+
+### Version Check
+Check your installed version:
+```bash
+toybox-calc --version
 ```
 
 ## i18n
